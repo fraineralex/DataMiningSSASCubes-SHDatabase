@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Practice7SSAS</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>M+6FRCHhJC733GDivtl+8lIM8FQ=8/9/2022 12:43:52 PM8/9/2022 10:35:07 AM</TimeStamp>
+        <ID>
+          <String>SH Database</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>EQkCQ2L5zZdlgv2J7S7hqqytyoY=8/9/2022 11:18:25 AM8/9/2022 10:51:39 AM</TimeStamp>
+        <ID>
+          <String>SH Database</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pSb96fC3TNTkCqzV1mJOrkck09s=8/9/2022 11:18:24 AM8/9/2022 11:18:23 AM</TimeStamp>
+        <ID>
+          <String>CHANNELS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lifT14vJEqXYFGwEnddoJ97Tz/s=8/9/2022 11:22:32 AM8/9/2022 11:22:32 AM</TimeStamp>
+        <ID>
+          <String>CUSTOMERS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lgYzSxENmIWbqQn9KTA2vY95cNo=8/9/2022 12:24:15 PM8/9/2022 11:29:24 AM</TimeStamp>
+        <ID>
+          <String>TIMES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XX/WbXLcYWC2U2Uu7xJOE9GDF3A=8/9/2022 12:38:53 PM8/9/2022 12:24:14 PM</TimeStamp>
+        <ID>
+          <String>PRODUCTS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SQ0TKOw7ObljklUXdEltl6cW+Ew=8/9/2022 12:34:06 PM8/9/2022 12:34:06 PM</TimeStamp>
+        <ID>
+          <String>PROMOTIONS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>5SbM1A8WEBxFHHzlDzHUQcwrGgI=8/9/2022 1:49:07 PM8/9/2022 1:49:05 PMkcjNBj0rBM2WNwXgrNK9PHxl5Fc=8/9/2022 1:49:07 PM8/9/2022 1:49:06 PM</TimeStamp>
+        <ID>
+          <String>SH Database</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>UdROBt9uk3rX80dQorCLIIvfhSc=8/9/2022 10:23:59 AM8/9/2022 10:23:56 AM</TimeStamp>
+      <ID>
+        <String>Practice7SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-08-09T18:06:28.26Z</LastDeployed>
+</DeploymentSnapshot>
